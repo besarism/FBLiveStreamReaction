@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         for _ in 0...10 {
             
             //pick a random image between heart and love
-            let image = drand48() > 0.5 ? #imageLiteral(resourceName: "like") : #imageLiteral(resourceName: "love")
+            let image = drand48() > 0.4 ? #imageLiteral(resourceName: "like") : #imageLiteral(resourceName: "love")
             //Reaction "Buttons"(Images)
             let likeImageView = UIImageView(image: image)
 
